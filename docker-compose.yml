@@ -1,0 +1,12 @@
+version: '3.5'
+
+services:
+  builder:
+    build:
+      context: .
+    image: js-builder
+    container_name: js-builder
+    restart: unless-stopped
+    volumes:
+      -  .:/app
+    network_mode: 'host'
