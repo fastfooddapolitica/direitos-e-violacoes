@@ -1,8 +1,8 @@
-# Direitos e Silêncios
+# Direitos e Violações
 
 A web browser game about the rights and legislations of Brazilian women.
 
-[Play it!](https://direitosesilencios.fastfooddapolitica.com.br)
+[Play it!](https://direitoseviolacoes.fastfooddapolitica.com.br)
 
 ## Useful Vue commands
 
