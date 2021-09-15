@@ -1,42 +1,46 @@
 <template>
-  <div id="app" :class="{'dark-background': $route.path === '/game'}">
+  <div id="app" :class="{ 'dark-background': $route.path === '/game' }">
     <transition name="fade" mode="out-in">
       <keep-alive>
-        <router-view/>
+        <router-view />
       </keep-alive>
     </transition>
   </div>
 </template>
 
 <style lang="scss">
-@import '@/vars.scss';
+@import "@/vars.scss";
 
 @font-face {
   font-family: Insanibu;
-  src: url('~@/assets/fonts/Insanibc.woff');
+  src: url("~@/assets/fonts/cooper-black.ttf");
 }
 @font-face {
   font-family: DIN;
-  src: url('~@/assets/fonts/FF_DIN_Regular.woff');
+  src: url("~@/assets/fonts/interstate-bold-cond.otf");
 }
 
 html {
   background-color: $pri-color;
   font-size: 14pt;
   font-family: DIN, sans-serif;
-  position:relative;
+  position: relative;
 }
 body {
   margin: 0;
 }
-html, body, #app {
+html,
+body,
+#app {
   min-height: 100vh;
 }
 ul {
   list-style-type: none;
   padding: 0;
 }
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-family: Insanibu;
   font-weight: normal;
 }
@@ -96,7 +100,8 @@ a {
   max-width: 800px;
   margin: auto;
   padding: 2rem;
-  p, ul {
+  p,
+  ul {
     text-align: left;
   }
   ul {
@@ -118,17 +123,21 @@ a {
   scrollbar-color: white $sec-color;
 }
 
-.fade-enter-active, .fade-leave-active {
-  transition: all .3s;
+.fade-enter-active,
+.fade-leave-active {
+  transition: all 0.3s;
 }
-.fade-enter, .fade-leave-to {
+.fade-enter,
+.fade-leave-to {
   opacity: 0;
 }
 
-.slide-enter-active, .slide-leave-active {
-  transition: all .3s;
+.slide-enter-active,
+.slide-leave-active {
+  transition: all 0.3s;
 }
-.slide-enter, .slide-leave-to {
+.slide-enter,
+.slide-leave-to {
   transform: translateY(-100%);
 }
 </style>
