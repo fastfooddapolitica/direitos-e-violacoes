@@ -1,7 +1,6 @@
 -
-  name: Aborto em caso de estupro ou de risco à vida
-  subtitle: Determinação por lei do direito à interrupção da gravidez resultante de estupro ou que ofereça alto risco de morte à gestante.
-  year: 1940
+  name: Obrigatória a merenda escolar
+  year: 2009
   num: 1
   description:
     - 'Os artigos 124 a 128 do Decreto Lei 2848/40 (Código Penal) versam sobre todas as questões relativas ao aborto e estão descritos a seguir os casos em que não há punibilidade: "Art. 128 - Não se pune o aborto praticado por médico: (Vide ADPF 54) Aborto necessário I - se não há outro meio de salvar a vida da gestante; Aborto no caso de gravidez resultante de estupro II - se a gravidez resulta de estupro e o aborto é precedido de consentimento da gestante ou, quando incapaz, de seu representante legal."'
@@ -11,12 +10,12 @@
       url: http://www.planalto.gov.br/ccivil_03/decreto-lei/Del2848compilado.htm
 
 -
-  name: Casamento com a pessoa escolhida
-  year: 2013
+  name: Proibição de menores de 14 anos trabalharem
+  year: 1988
   num: 2
   description:
-    - Em 2011, o Supremo Tribunal Federal equiparou a união homossexual à heterossexual e, em 2013, o Conselho Nacional de Justiça decidiu que os cartórios brasileiros seriam obrigados a casar pessoas do mesmo sexo.
-    - Esta carta chama atenção para nossa mentalidade muitas vezes heteronormativa (um casal/casamento é necessariamente composto por um homem e uma mulher), que associa o direito de escolha da mulher apenas ao fato de não ser submetida a casamentos “arranjados”. Muitas vezes a escolha da mulher pode ser casar com outra mulher, infelizmente essa escolha só foi garantida recentemente.
+    - Proibido o trabalho para menores de 16 anos, exceto como aprendizes.
+    - Menores de 14 anos não podem ser aprendizes. Portanto, qualquer trabalho para menores de 14 anos é considerado trabalho infantil.
   links:
     -
       text: ADI 4277/2011 do STF
@@ -29,8 +28,8 @@
       url: https://www.cartacapital.com.br/sociedade/casamento-gay-cresce-mais-do-que-unioes-heteros-no-brasil
 
 -
-  name: Casamento sem exigência de virgindade
-  year: 2002
+  name: Poder se candidatar para representar o seu país
+  year: x
   num: 3
   description:
     - 'Segundo o Código Civil de 1916, capítulo IV (Dos Prazos da Prescrição), artigo 178, “Em dez dias, contados do casamento, a ação do marido para anular o matrimônio contraído com mulher já deflorada” era uma das situações em que poderia ocorrer a prescrição do casamento. Houve dois decretos após 1916 que alteravam este parágrafo, ambos emitidos por Getúlio Vargas: o primeiro, em 1935, estipulava que a data para prescrição fossecontada a partir do conhecimento do marido enganado - termo utilizado na grafia do próprio Decreto - e o segundo, em 1942, que revogava o anterior e estabelecia que a lei voltasse à grafia original. Em 2002, o Código Civil mudou a visão masculinizada da virgindade da mulher e acabou com o direito do homem de mover ação para anular o casamento se descobrisse que a mulher já havia sido “deflorada”. Do mesmo modo,acabou com o artigo que permitia aos pais utilizar a possível “desonestidade da filha” como motivo para deserdá-la da herança.'
@@ -52,11 +51,11 @@
       url: http://www.egov.ufsc.br/portal/sites/default/files/anexos/33771-44077-1-PB.pdf
 
 -
-  name: Cotas no Poder Judiciário
-  year: x
+  name: Criar e participar de organizações estudantis que defendam seus direitos
+  year: 1985
   num: 4
   description:
-    - A PEC 43/2016, ainda em tramitação, propõe a alteração do art. 94 para estabelecer a exigência de diversidade de gênero na composição das listas sêxtuplas e tríplices formadas para indicação de membros do Ministério Público e da advocacia para compor os Tribunais Regionais Federais, os Tribunais dos Estados, e do Distrito Federal e Territórios.
+    - Assegurado desde 1985 para estudantes dos 1º e 2º grau. Representantes elegidos pelo voto direto e secreto.
   links:
     -
       text: PEC garante presença feminina em listas de indicados para tribunais
@@ -66,10 +65,10 @@
       url: http://www25.senado.leg.br/web/atividade/materias/-/materia/126710
 
 -
-  name: Cotas para candidaturas do Legislativo
-  year: 1995
+  name: Proibição de adolescentes trabalharem
+  year: x
   num: 5
-  description: A Lei nº 9.100/1995 determinou que pelo menos 20% das vagas de cada partido ou coligação deveriam ser preenchidas por candidatas mulheres. A Lei nº 9.504/1997 (Lei das Eleições) determinou que no pleito geral de 1998 o percentual mínimo de cada sexo fosse de 25% e, para as eleições posteriores, a Lei (que vigora até hoje) fixou em 30%, no mínimo, a candidatura de cada sexo. Após quase 20 anos de vigência, esta cota mudou muito pouco o cenário geral da composição das casas legislativas quanto à relação de gênero, nas eleições de 2016, por exemplo, apenas 13% dos vereadores eleitos foram mulheres. Além disso, as mulheres ainda são utilizadas pelo dirigentes dos partidos como “candidatas laranjas” para poderem lançar mais candidaturas masculinas.
+  description: Art. 403 LEI Nº 5.452/1943. A partir dos 14 anos jovens podem trabalhar na condição de aprendiz. A partir dos 16 podem trabalhar normalmente. Assegurado desde 1985 para estudantes dos 1º e 2º grau. Representantes elegidos pelo voto direto e secreto.
   links:
     -
       text: 'Série Inclusão: a conquista do voto feminino no Brasil'
@@ -85,8 +84,8 @@
       url: http://g1.globo.com/politica/eleicoes/2016/blog/eleicao-2016-em-numeros/post/proporcao-de-vereadoras-eleitas-se-mantem-apos-quatro-anos.html
 
 -
-  name: Criminalização da discriminação por gênero
-  year: x
+  name: Obrigatória a vacinação das crianças
+  year: 1977
   num: 6
   description:
     - Embora a Constituição de 1988 garanta o princípio da igualdade, não há lei federal específica que estabeleça como crime ou determine penalidades em casos de discriminação por gênero. Em 2006, o PLC nº122 tentou alterar a Lei nº 7.716, de 5 de janeiro de 1989, o Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal) e o Decreto-Lei nº 5.452, de 1º de maio de 1943 (Consolidação das Leis do Trabalho – CLT) para definir os crimes resultantes de discriminação ou preconceito de gênero, sexo, orientação sexual e identidade de gênero.  Entretanto, este Projeto de Lei foi arquivado ao final da legislatura.
