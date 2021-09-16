@@ -79,7 +79,6 @@ export default {
   border-radius: 10px;
   color: white;
   padding: 10px;
-  padding-top: $card-size / 5 * 2;
   background-repeat: no-repeat;
   box-sizing: border-box;
   box-shadow: 2px 2px 4px 0px #000;

@@ -1,28 +1,41 @@
 <template>
   <div class="parts">
     <div class="part part-1">
-      <p class="subtitle light-text">Aprenda sobre os direitos e legislações da mulher brasileira!</p>
-      <img class="logo block-center" src="@/assets/images/logo_trans.png">
-      <img class="logo sublogo block-center" src="/android-chrome-512x512.png">
-      <!-- <h1 class="logo"> -->
-      <!--   <span class="light-text">Direitos e</span> -->
-      <!--   <br> -->
-      <!--   <span class="sec-text">Silêncios</span> -->
-      <!-- </h1> -->
+      <p class="subtitle">
+        Aprenda sobre os direitos e legislações da criança e do adolescente!
+      </p>
+      <img class="logo block-center" src="@/assets/images/logo_trans.png" />
     </div>
     <div class="part part-2">
-      <btn-x class="play-btn" :to="{ name: 'game'}">Jogar</btn-x>
+      <btn-x class="play-btn" :to="{ name: 'game' }">Jogar</btn-x>
       <div class="double-btn">
-        <btn-x class="small-btn" :to="{ name: 'tutorial'}">Instruções</btn-x>
-        <btn-x class="small-btn" :to="{ name: 'about'}">Sobre</btn-x>
+        <btn-x class="small-btn" :to="{ name: 'tutorial' }">Instruções</btn-x>
+        <btn-x class="small-btn" :to="{ name: 'about' }">Sobre</btn-x>
       </div>
       <div class="double-btn">
         <btn-x class="small-btn no-back-btn" @click="toggleFullscreen">
-            <img svg-inline class="icon" src="@/assets/images/fullscreen.svg" alt="tela cheia" />
+          <img
+            svg-inline
+            class="icon"
+            src="@/assets/images/fullscreen.svg"
+            alt="tela cheia"
+          />
         </btn-x>
         <btn-x class="small-btn no-back-btn" @click="toggleAudio">
-            <img v-if="mute" svg-inline class="icon" src="@/assets/images/mute.svg" alt="desligar sons" />
-            <img v-else svg-inline class="icon" src="@/assets/images/unmute.svg" alt="ligar sons" />
+          <img
+            v-if="mute"
+            svg-inline
+            class="icon"
+            src="@/assets/images/mute.svg"
+            alt="desligar sons"
+          />
+          <img
+            v-else
+            svg-inline
+            class="icon"
+            src="@/assets/images/unmute.svg"
+            alt="ligar sons"
+          />
         </btn-x>
       </div>
     </div>
@@ -30,45 +43,47 @@
 </template>
 
 <script>
-import screenfull from 'screenfull'
+import screenfull from "screenfull";
 
 export default {
-  data () {
+  data() {
     return {
-      mute: this.$audioConf._muted
-    }
+      mute: this.$audioConf._muted,
+    };
   },
   methods: {
-    toggleFullscreen () {
+    toggleFullscreen() {
       if (screenfull.enabled) {
-        screenfull.toggle()
+        screenfull.toggle();
       } else {
-        alert('A funcionalidade de tela cheia parece não suportada por esse navegador. Por favor, tente em outro.')
+        alert(
+          "A funcionalidade de tela cheia parece não suportada por esse navegador. Por favor, tente em outro."
+        );
       }
     },
-    toggleAudio () {
+    toggleAudio() {
       if (this.mute) {
-        this.$audioConf.mute(false)
-        this.mute = false
+        this.$audioConf.mute(false);
+        this.mute = false;
       } else {
-        this.$audioConf.mute(true)
-        this.mute = true
+        this.$audioConf.mute(true);
+        this.mute = true;
       }
-    }
-  }
-}
+    },
+  },
+};
 </script>
 
 <style lang="scss">
-@import '@/vars.scss';
+@import "@/vars.scss";
 // .logo {
-  //   font-size: 50pt;
-  //   line-height: 40pt;
-  //   margin: 0 0 50px 0;
-  //   .sec-text {
-    //     text-shadow: $shadow-color 2px -3px 0;
-    //   }
-  // }
+//   font-size: 50pt;
+//   line-height: 40pt;
+//   margin: 0 0 50px 0;
+//   .sec-text {
+//     text-shadow: $shadow-color 2px -3px 0;
+//   }
+// }
 .block-center {
   display: block;
   margin: auto;
@@ -100,7 +115,8 @@ export default {
   border: 0;
   margin: 0;
   width: 3rem;
-  &:hover, &:focus {
+  &:hover,
+  &:focus {
     background: 0;
   }
   &:after {

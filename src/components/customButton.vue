@@ -1,32 +1,32 @@
 <template>
   <button type="button" class="btn x-font" @click="clicked">
-<slot/>
-</button>
+    <slot />
+  </button>
 </template>
 
 <script>
 export default {
-  name: 'btn-x',
+  name: "btn-x",
   props: {
     to: Object,
     sound: {
-      default: 'click'
-    }
+      default: "click",
+    },
   },
   methods: {
-    clicked (e) {
-      if (this.sound) this.$audio.play(this.sound)
-      this.$emit('click', e)
+    clicked(e) {
+      if (this.sound) this.$audio.play(this.sound);
+      this.$emit("click", e);
       if (this.to) {
-        this.$router.push(this.to)
+        this.$router.push(this.to);
       }
-    }
-  }
-}
+    },
+  },
+};
 </script>
 
 <style lang="scss">
-@import '@/vars.scss';
+@import "@/vars.scss";
 $btn-border-radius: 13px;
 .btn {
   display: block;
@@ -34,6 +34,7 @@ $btn-border-radius: 13px;
   width: 100%;
   max-width: 200px;
   background-color: $sec-color;
+  text-transform: uppercase;
   /* background-image: url('~@/assets/images/noise.png'); */
   /* background-blend-mode: overlay; */
   margin: 10px auto;
@@ -47,9 +48,10 @@ $btn-border-radius: 13px;
   box-sizing: border-box;
   /* box-shadow: black 1px 1px 2px; */
   /* box-shadow: $shadow-color 4px 4px 0px; */
-  transition: all .5s;
+  transition: all 0.5s;
   font-family: Insanibu;
-  &:hover, &:focus {
+  &:hover,
+  &:focus {
     background-color: lighten($sec-color, 10%);
     /* background-color: #cc6565; */
     /* box-shadow: black 1px 1px 4px; */
@@ -67,9 +69,9 @@ $btn-border-radius: 13px;
     border: solid 2px black;
     border-radius: $btn-border-radius;
     z-index: -1;
-}
+  }
 }
 button::-moz-focus-inner {
-    border: 0;
+  border: 0;
 }
 </style>

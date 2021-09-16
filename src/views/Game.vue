@@ -1,33 +1,49 @@
 <template>
   <div class="game-area">
-
     <transition name="fade">
       <div v-if="showFormMsg" class="form-msg">
         <btn-x
           class="close-btn"
           @click="showFormMsg = false"
-          aria-label="Close">
+          aria-label="Close"
+        >
           <span aria-hidden="true">&times;</span>
         </btn-x>
-        <p>Muito obrigada por jogar! Queremos muito saber o que você achou para seguirmos desenvolvendo jogos sobre temas tão importantes. Por favor, responde essas <a href="https://docs.google.com/forms/d/e/1FAIpQLSeVjVvijesilKEJkVz6wn-3LLrBbD26jFAZZuPJ6-HYrEa3wQ/viewform" target="_blank" rel="noopener noreferrer">perguntinhas aqui</a>? (Leva menos de três minutos).</p>
+        <p>
+          Muito obrigada por jogar! Queremos muito saber o que você achou para
+          seguirmos desenvolvendo jogos sobre temas tão importantes. Por favor,
+          responde essas
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLSeVjVvijesilKEJkVz6wn-3LLrBbD26jFAZZuPJ6-HYrEa3wQ/viewform"
+            target="_blank"
+            rel="noopener noreferrer"
+            >perguntinhas aqui</a
+          >? (Leva menos de três minutos).
+        </p>
       </div>
     </transition>
 
     <modal-box modal-id="game" ref="modal" @closed="closeModal">
-      <component :is="modalComponent" v-bind="modalProps"
-                 @tryAgain="closeModal" @flipCards="clickedFlipCards"
-                 @restartGame="restartGame"/>
+      <component
+        :is="modalComponent"
+        v-bind="modalProps"
+        @tryAgain="closeModal"
+        @flipCards="clickedFlipCards"
+        @restartGame="restartGame"
+      />
     </modal-box>
 
     <div class="btn-menu-anchor">
-      <btn-x class="btn-menu" :to="{name: 'intro'}">
-        <span/>
-        <span/>
-        <span/>
+      <btn-x class="btn-menu" :to="{ name: 'intro' }">
+        <span />
+        <span />
+        <span />
       </btn-x>
     </div>
 
-    <p class="margin light-text x-font"><small>ARRASTE AS CARTAS E ORDENE-AS CRONOLOGICAMENTE</small></p>
+    <p class="margin x-font">
+      <small>ARRASTE AS CARTAS E ORDENE-AS CRONOLOGICAMENTE</small>
+    </p>
 
     <!-- Timeline Scroll Menu -->
     <div class="btn-anchor scroll-menu">
@@ -48,19 +64,32 @@
     </div>
 
     <div class="viewport" ref="timeline" data-scroll="timeline">
-      <draggable v-model="cardsInPlay" class="play-area" :options="{group:'card'}"
-                 :style="{'min-width': playMinWidth}"
-                 ref="timelineContent"
-                 @start="dragStart()" @end="dragEnd()">
-        <card-object v-for="card in cardsInPlay" @openModal="openModal"
-                     class="card-object"
-                     :class="{'out-of-board': cardsOutOfBoard}"
-                     ref="cardsInPlayComponents" :key="card.num" :cardData="card"/>
+      <draggable
+        v-model="cardsInPlay"
+        class="play-area"
+        :options="{ group: 'card' }"
+        :style="{ 'min-width': playMinWidth }"
+        ref="timelineContent"
+        @start="dragStart()"
+        @end="dragEnd()"
+      >
+        <card-object
+          v-for="card in cardsInPlay"
+          @openModal="openModal"
+          class="card-object"
+          :class="{ 'out-of-board': cardsOutOfBoard }"
+          ref="cardsInPlayComponents"
+          :key="card.num"
+          :cardData="card"
+        />
       </draggable>
     </div>
 
     <!-- Discard Scroll Menu -->
-    <div v-show="discardScroll.left || discardScroll.right" class="btn-anchor scroll-menu">
+    <div
+      v-show="discardScroll.left || discardScroll.right"
+      class="btn-anchor scroll-menu"
+    >
       <div class="half text-right">
         <transition name="fade">
           <div v-show="discardScroll.left">
@@ -79,14 +108,23 @@
 
     <div class="viewport viewport-discard" ref="discard" data-scroll="discard">
       <p class="discard-text x-font">não existe</p>
-      <draggable v-model="discardPile" class="play-area discard-area"
-                :options="{group:'card', draggable: '.flip-container'}"
-                :style="{'min-width': discardMinWidth}"
-                @start="dragStart()" @end="dragEnd()">
-        <card-object v-for="card in discardPile" @openModal="openModal"
-                    class="card-object"
-                    :class="{'out-of-board': cardsOutOfBoard}"
-                    ref="discardPileComponents" :key="card.num" :cardData="card"/>
+      <draggable
+        v-model="discardPile"
+        class="play-area discard-area"
+        :options="{ group: 'card', draggable: '.flip-container' }"
+        :style="{ 'min-width': discardMinWidth }"
+        @start="dragStart()"
+        @end="dragEnd()"
+      >
+        <card-object
+          v-for="card in discardPile"
+          @openModal="openModal"
+          class="card-object"
+          :class="{ 'out-of-board': cardsOutOfBoard }"
+          ref="discardPileComponents"
+          :key="card.num"
+          :cardData="card"
+        />
       </draggable>
     </div>
 
@@ -98,16 +136,16 @@
 </template>
 
 <script>
-import draggable from 'vuedraggable'
-import cards from '@/assets/texts/cards.yml'
-import cardObject from '@/components/cardObject.vue'
-import modalBox from '@/components/modalBox.vue'
-import endGame from '@/components/endGame.vue'
-import { scrollIntoView, sleep } from '@/utils'
+import draggable from "vuedraggable";
+import cards from "@/assets/texts/cards.yml";
+import cardObject from "@/components/cardObject.vue";
+import modalBox from "@/components/modalBox.vue";
+import endGame from "@/components/endGame.vue";
+import { scrollIntoView, sleep } from "@/utils";
 
 export default {
-  name: 'home',
-  data () {
+  name: "home",
+  data() {
     return {
       cardsInPlay: [],
       discardPile: [],
@@ -119,215 +157,228 @@ export default {
       cardsOutOfBoard: true,
       timelineScroll: {
         left: 0,
-        right: 0
+        right: 0,
       },
       discardScroll: {
         left: 0,
-        right: 0
+        right: 0,
       },
       showFormMsg: false,
-      formMsgState: 'initial'
-    }
+      formMsgState: "initial",
+    };
   },
   components: {
     draggable,
     cardObject,
-    modalBox
+    modalBox,
   },
-  mounted () {
-    this.restartGame()
+  mounted() {
+    this.restartGame();
 
-    let self = this
-    this.$refs.timeline.addEventListener('scroll', this.updateScrollData)
-    this.$refs.discard.addEventListener('scroll', this.updateScrollData)
-    window.addEventListener('resize', this.updateScrollData)
+    let self = this;
+    this.$refs.timeline.addEventListener("scroll", this.updateScrollData);
+    this.$refs.discard.addEventListener("scroll", this.updateScrollData);
+    window.addEventListener("resize", this.updateScrollData);
     var observer = new MutationObserver(function (mutations) {
       mutations.forEach(function (mutationRecord) {
-        self.updateScrollData()
-      })
-    })
-    observer.observe(this.$refs.timelineContent.rootContainer, { attributes: true, attributeFilter: ['style'] })
+        self.updateScrollData();
+      });
+    });
+    observer.observe(this.$refs.timelineContent.rootContainer, {
+      attributes: true,
+      attributeFilter: ["style"],
+    });
   },
-  beforeDestroy () {
-    window.removeEventListener('resize', this.updateScrollData)
+  beforeDestroy() {
+    window.removeEventListener("resize", this.updateScrollData);
   },
   computed: {
-    discardMinWidth () {
-      return (this.discardPile.length || 1) * 220 + 'px'
+    discardMinWidth() {
+      return (this.discardPile.length || 1) * 220 + "px";
     },
-    playMinWidth () {
-      return (this.cardsInPlay.length || 1) * 220 + 'px'
-    }
+    playMinWidth() {
+      return (this.cardsInPlay.length || 1) * 220 + "px";
+    },
   },
   methods: {
-    updateScrollData (event) {
-      let obj, objData
-      obj = this.$refs.timeline
-      objData = this.timelineScroll
-      objData.left = obj.scrollLeft
-      objData.right = obj.scrollWidth - (obj.scrollLeft + obj.clientWidth)
-      obj = this.$refs.discard
-      objData = this.discardScroll
-      objData.left = obj.scrollLeft
-      objData.right = obj.scrollWidth - (obj.scrollLeft + obj.clientWidth)
+    updateScrollData(event) {
+      let obj, objData;
+      obj = this.$refs.timeline;
+      objData = this.timelineScroll;
+      objData.left = obj.scrollLeft;
+      objData.right = obj.scrollWidth - (obj.scrollLeft + obj.clientWidth);
+      obj = this.$refs.discard;
+      objData = this.discardScroll;
+      objData.left = obj.scrollLeft;
+      objData.right = obj.scrollWidth - (obj.scrollLeft + obj.clientWidth);
     },
-    scroll (objName, dir) {
-      let target = 200 * dir
+    scroll(objName, dir) {
+      let target = 200 * dir;
 
-      let step = 10 * dir
+      let step = 10 * dir;
 
-      let current = 0
+      let current = 0;
 
-      let timer
+      let timer;
       timer = setInterval(() => {
-        this.$refs[objName].scrollLeft += step
-        current += step
-        if (Math.abs(current) >= Math.abs(target)) clearInterval(timer)
-      }, 20)
+        this.$refs[objName].scrollLeft += step;
+        current += step;
+        if (Math.abs(current) >= Math.abs(target)) clearInterval(timer);
+      }, 20);
     },
-    allCardsComponents () {
+    allCardsComponents() {
       if (this.$refs.cardsInPlayComponents) {
-        return this.$refs.cardsInPlayComponents.concat(this.$refs.discardPileComponents)
+        return this.$refs.cardsInPlayComponents.concat(
+          this.$refs.discardPileComponents
+        );
       } else {
-        return []
+        return [];
       }
     },
-    async restartGame () {
-      this.closeModal()
+    async restartGame() {
+      this.closeModal();
       if (!this.cardsOutOfBoard) {
-        this.cardsOutOfBoard = true
-        scrollIntoView(this.$refs.timeline)
-        await sleep(2000)
+        this.cardsOutOfBoard = true;
+        scrollIntoView(this.$refs.timeline);
+        await sleep(2000);
       }
-      this.unflipCards()
-      this.discardPile = []
-      this.cardsInPlay = []
-      this.rightSequence = undefined
-      this.triesCount = 0
-      var index = 0
-      var cardsTmp = cards.slice()
-      this.$audio.play('suffle')
-      await sleep(300)
+      this.unflipCards();
+      this.discardPile = [];
+      this.cardsInPlay = [];
+      this.rightSequence = undefined;
+      this.triesCount = 0;
+      var index = 0;
+      var cardsTmp = cards.slice();
+      this.$audio.play("suffle");
+      await sleep(300);
       for (var i = 0; i < 5; i++) {
-        index = Math.floor(Math.random() * cardsTmp.length)
-        this.cardsInPlay.push(cardsTmp.splice(index, 1)[0])
-        this.$audio.play('distribute')
-        await sleep(300)
+        index = Math.floor(Math.random() * cardsTmp.length);
+        this.cardsInPlay.push(cardsTmp.splice(index, 1)[0]);
+        this.$audio.play("distribute");
+        await sleep(300);
       }
 
-      this.cardsOutOfBoard = false
-      this.$matomo.trackEvent('jogo', 'começou partida')
+      this.cardsOutOfBoard = false;
+      this.$matomo.trackEvent("jogo", "começou partida");
     },
-    openModal (data) {
-      this.modalComponent = data.component
-      this.modalProps = data.props
-      this.$refs.modal.open()
+    openModal(data) {
+      this.modalComponent = data.component;
+      this.modalProps = data.props;
+      this.$refs.modal.open();
     },
-    getCardComponent (card) {
+    getCardComponent(card) {
       for (var comp of this.allCardsComponents()) {
-        if (comp && comp.cardData === card) return comp
+        if (comp && comp.cardData === card) return comp;
       }
     },
-    async animatedFlip (card) {
-      let comp = this.getCardComponent(card)
+    async animatedFlip(card) {
+      let comp = this.getCardComponent(card);
       if (!comp.flipped) {
-        comp.scrollIntoView()
-        comp.flip()
-        await sleep(1000)
+        comp.scrollIntoView();
+        comp.flip();
+        await sleep(1000);
       }
     },
-    async animatedUnflip (card) {
-      let comp = this.getCardComponent(card)
+    async animatedUnflip(card) {
+      let comp = this.getCardComponent(card);
       if (comp.flipped) {
-        comp.scrollIntoView()
-        comp.unflip()
-        await sleep(1000)
+        comp.scrollIntoView();
+        comp.unflip();
+        await sleep(1000);
       }
     },
-    async checkCards (event) {
-      if (event) event.stopPropagation()
-      var lastYear = 0
-      this.rightSequence = true
-      this.minWrongCardsCount = 0
-      this.triesCount += 1
+    async checkCards(event) {
+      if (event) event.stopPropagation();
+      var lastYear = 0;
+      this.rightSequence = true;
+      this.minWrongCardsCount = 0;
+      this.triesCount += 1;
 
       // Check timeline
       for (var card of this.cardsInPlay) {
-        if (card.year < lastYear || card.year === 'x') {
-          this.rightSequence = false
-          this.minWrongCardsCount += 1
-          await this.animatedUnflip(card)
+        if (card.year < lastYear || card.year === "x") {
+          this.rightSequence = false;
+          this.minWrongCardsCount += 1;
+          await this.animatedUnflip(card);
         } else {
-          lastYear = card.year
-          await this.animatedFlip(card)
+          lastYear = card.year;
+          await this.animatedFlip(card);
         }
       }
       // Check discard pile
       for (card of this.discardPile) {
-        if (card.year !== 'x') {
-          this.rightSequence = false
-          this.minWrongCardsCount += 1
-          await this.animatedUnflip(card)
+        if (card.year !== "x") {
+          this.rightSequence = false;
+          this.minWrongCardsCount += 1;
+          await this.animatedUnflip(card);
         } else {
-          await this.animatedFlip(card)
+          await this.animatedFlip(card);
         }
       }
       // Play sound
       if (this.rightSequence) {
-        this.$audio.play('correct')
+        this.$audio.play("correct");
         // this.flipCards()
-        this.$matomo.trackEvent('jogo', 'verificou cartas', 'acertou')
-        if (this.formMsgState === 'initial') this.formMsgState = 'prepare'
+        this.$matomo.trackEvent("jogo", "verificou cartas", "acertou");
+        if (this.formMsgState === "initial") this.formMsgState = "prepare";
       } else {
-        this.$audio.play('wrong')
-        this.$matomo.trackEvent('jogo', 'verificou cartas', 'errou')
+        this.$audio.play("wrong");
+        this.$matomo.trackEvent("jogo", "verificou cartas", "errou");
       }
-      this.$matomo.trackEvent('jogo', 'verificou cartas', 'min erradas', this.minWrongCardsCount)
-      this.$matomo.trackEvent('jogo', 'verificou cartas', 'tentativas', this.triesCount)
-      this.openModal(
-        {
-          component: endGame,
-          props: {
-            minWrongCardsCount: this.minWrongCardsCount,
-            triesCount: this.triesCount
-          }
-        }
-      )
+      this.$matomo.trackEvent(
+        "jogo",
+        "verificou cartas",
+        "min erradas",
+        this.minWrongCardsCount
+      );
+      this.$matomo.trackEvent(
+        "jogo",
+        "verificou cartas",
+        "tentativas",
+        this.triesCount
+      );
+      this.openModal({
+        component: endGame,
+        props: {
+          minWrongCardsCount: this.minWrongCardsCount,
+          triesCount: this.triesCount,
+        },
+      });
     },
-    clickedFlipCards () {
-      this.$matomo.trackEvent('jogo', 'revelou cartas')
-      this.flipCards()
+    clickedFlipCards() {
+      this.$matomo.trackEvent("jogo", "revelou cartas");
+      this.flipCards();
     },
-    flipCards () {
-      this.closeModal()
+    flipCards() {
+      this.closeModal();
       for (var card of this.allCardsComponents()) {
-        if (card) card.flip()
+        if (card) card.flip();
       }
     },
-    unflipCards () {
+    unflipCards() {
       for (var card of this.allCardsComponents()) {
-        if (card) card.unflip()
+        if (card) card.unflip();
       }
     },
-    dragStart () {
-      this.$audio.play('grab')
+    dragStart() {
+      this.$audio.play("grab");
     },
-    dragEnd () {
-      this.$audio.play('release')
+    dragEnd() {
+      this.$audio.play("release");
     },
-    closeModal () {
-      this.$refs.modal.close()
-      if (this.formMsgState === 'prepare') {
-        this.showFormMsg = true
-        this.formMsgState = 'done'
+    closeModal() {
+      this.$refs.modal.close();
+      if (this.formMsgState === "prepare") {
+        this.showFormMsg = true;
+        this.formMsgState = "done";
       }
-    }
-  }
-}
+    },
+  },
+};
 </script>
 
 <style lang="scss">
-@import '@/vars.scss';
+@import "@/vars.scss";
 .game-area {
   min-height: 100%;
   display: flex;
@@ -365,7 +416,7 @@ export default {
 }
 .discard-area {
   align-items: flex-end;
-  border: dashed .3rem $sec-color;
+  border: dashed 0.3rem $sec-color;
   border-radius: 4rem;
   background-color: $shadow-color;
   transition: width 1s;
@@ -380,13 +431,13 @@ export default {
   color: $sec-color;
 }
 .sortable-ghost {
-  opacity: .2;
+  opacity: 0.2;
   background-color: purple;
 }
 .card-object {
   position: relative;
   left: 0;
-  transition: left 2s cubic-bezier(.65,.05,.36,1);
+  transition: left 2s cubic-bezier(0.65, 0.05, 0.36, 1);
   flex-shrink: 0;
 }
 .out-of-board {
@@ -421,7 +472,7 @@ export default {
 }
 .half {
   width: 50%;
-  padding: 0 .5rem;
+  padding: 0 0.5rem;
 }
 .form-msg {
   position: fixed;
@@ -430,7 +481,7 @@ export default {
   right: 0;
   background-color: white;
   z-index: 100;
-  padding: .5rem .5rem 0 .5rem;
+  padding: 0.5rem 0.5rem 0 0.5rem;
   a {
     color: $sec-color;
   }
