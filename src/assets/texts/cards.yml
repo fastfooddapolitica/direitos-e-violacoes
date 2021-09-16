@@ -68,7 +68,7 @@
   name: Proibição de adolescentes trabalharem
   year: x
   num: 5
-  description: Art. 403 LEI Nº 5.452/1943. A partir dos 14 anos jovens podem trabalhar na condição de aprendiz. A partir dos 16 podem trabalhar normalmente. Assegurado desde 1985 para estudantes dos 1º e 2º grau. Representantes elegidos pelo voto direto e secreto.
+  description: Art. 403 LEI Nº 5.452/1943. A partir dos 14 anos jovens podem trabalhar na condição de aprendiz. A partir dos 16 podem trabalhar normalmente.
   links:
     -
       text: 'Série Inclusão: a conquista do voto feminino no Brasil'
@@ -88,15 +88,8 @@
   year: 1977
   num: 6
   description:
-    - Embora a Constituição de 1988 garanta o princípio da igualdade, não há lei federal específica que estabeleça como crime ou determine penalidades em casos de discriminação por gênero. Em 2006, o PLC nº122 tentou alterar a Lei nº 7.716, de 5 de janeiro de 1989, o Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal) e o Decreto-Lei nº 5.452, de 1º de maio de 1943 (Consolidação das Leis do Trabalho – CLT) para definir os crimes resultantes de discriminação ou preconceito de gênero, sexo, orientação sexual e identidade de gênero.  Entretanto, este Projeto de Lei foi arquivado ao final da legislatura.
-    - Em 2012, houve uma iniciativa da Comissão Especial de Juristas para alterar o artigo 1º da Lei 7.716/1989, conhecida como Lei do Racismo, com o objetivo de tornar crime inafiançável discriminar uma pessoa por ser mulher, homossexual ou nordestina. O texto já previa a punição para “discriminação ou preconceito de raça, cor, etnia, religião ou procedência nacional”, a proposta de alteração objetivava proibir a discriminação também por gênero, orientação sexual e procedência regional. A alteração não foi aprovada e o texto continua com a redação dada pela Lei nº 9.459, de 15/05/97.
-    - No estado do Rio de Janeiro, por outro lado, houve um projeto de lei (nº 2054) em 2013 que estabelecia penalidades administrativas aos estabelecimentos e agentes públicos que discriminassem as pessoas em razão de sua orientação sexual e identidade de gênero. Em 2015, a Lei n. 7041 tornou real o que foi previsto por esse projeto de lei, mas alterou a redação para “discriminação às pessoas por preconceito de sexo e orientação sexual”.
-    - No estado de São Paulo, a Lei nº 10.313/1999, veda qualquer forma de discriminação no acesso aos elevadores de todos os edifícios públicos ou particulares, comerciais, industriais e residenciais multifamiliares existentes no Estado. O Artigo 1º define que “Fica vedada qualquer forma de discriminação em virtude de raça, sexo, cor, origem, condição social, idade, porte ou presença de deficiência ou doença não contagiosa por contato social (...)” e, em 2011, a Lei nº14.363 alterou a redação deste artigo para incluir os critérios de orientação sexual e identidade de gênero como formas de discriminação.
-    - Também no estado de São Paulo, a Lei n. 12.284, de 22 de fevereiro de 2006, autorizou o Poder Executivo a incluir no currículo do ensino fundamental e médio a crítica da violência doméstica e da discriminação de raça, gênero, orientação sexual, origem ou etnia, que pode ser uma forma de prevenir que os crimes por discriminação aconteçam, a longo prazo.
-    - 'Hoje, a desigualdade entre os gêneros, proporcionada pelo sistema social, econômico e político, persiste e segue como um “tabu”, longe de se tornar uma política pública educacional: “Em 2014 estava previsto no PNE (Plano Nacional Educacional) que a questão gênero fizesse parte das diretrizes educacionais que seriam aplicadas nas escolas de todo o país. O termo “gênero”, porém, foi retirado da determinação e substituído por um novo texto base, que foi aprovado às pressas pela Câmara Federal. No caso do Plano Municipal, a decisão de retirada do termo foi tomada pela Comissão de Finanças e Orçamento (!), mesmo não sendo assunto de sua alçada. Em 2015, o Enem, com 8,4 milhões de inscritos, abordou como tema de redação “A Persistência da Violência Contra a Mulher” – nesse contexto a expressão “Enem feminista” ganhou visibilidade e a prova foi rechaçada por alguns que apontavam posicionamento ideológico e até “partidário”. Neste ano, a EMEF Amorim Lima recebeu uma notificação do vereador paulistano Ricardo Nunes (PMDB) exigindo explicações e alegando ilegalidade sobre a Semana de Gênero que estava sendo organizada na escola”.'
-    - Legislação, Jurisprudência e aplicabilidade da lei - É comum o argumento de que não é necessário estabelecer leis para discriminações, preconceitos e violências específicas, considerando que nossa Constituição já garante o princípio da igualdade e criminaliza agressões de forma de geral. Muitas das legislações que existem, não possuem aplicabilidade, uma vez que não são regulamentadas, ou seja, não se especifica critérios, penalidades e normas, que garantam o seu cumprimento. Um exemplo disso é a Proibição da Desigualdade Salarial (vide item 26) entre homens e mulheres que operam um mesmo ofício em local específico. Na nossa Constituição Federal de 1988, isso não poderia acontecer, porém temos médias nacionais que demonstram essa prática como corriqueira nos locais de trabalho brasileiros. O fato da legislação existir, e a não regulamentação dela, gera uma não jurisprudência (ver glossário). Ou seja, é incomum, raro ou inexistente, casos em que essa norma não foi cumprida e ainda assim obteve-se indenizações e reajustes salariais diante do tribunal.
-    - Leis específicas - como a Lei Maria da Penha - existem na tentativa de equilibrar relações sociais em que há diferença de privilégios e, a partir disso, pode haver opressão. Como na relação entre mulheres e homens, ou pessoas brancas e não-brancas. Uma vez formalizada e sancionada a lei, o Executivo e o Judiciário devem trabalhar juntos para garantir que ela seja seguida. Dentro do nosso cenário atual, compreende-se como necessidade a prática de garantir direitos via legislação, mas entende- se também a dificuldade em garanti-los a partir da aplicabilidade da lei.
-  links:
+    - Portaria Ministerial nº 452, de 1977.Definição das vacinas obrigatórias para os menores de um ano, em todo território nacional.
+    links:
     -
       text: 'Fonte: Folha de S.Paulo, Agora é Que São Elas - Molho Especial'
       url: http://agoraequesaoelas.blogfolha.uol.com.br/2016/11/28/quem-faz-as-regras-do-jogo-da-politica-no-brasil/
@@ -126,20 +119,20 @@
       url: http://www.al.sp.gov.br/repositorio/legislacao/lei/2006/lei-12284-22.02.2006.html
 
 -
-  name: Criminalização da homofobia
-  year: 2019
+  name: Proibição da Perseguição Virtual
+  year: 2021
   num: 7
-  description: O STF decidiu criminalizar as condutas homofóbicas e transfóbicas, que terão penalidades parecidas com os crimes de racismo
+  description: Stalking é definido como perseguição reiterada, por qualquer meio, como a internet (cyberstalking), que ameaça a integridade física e psicológica de alguém, interferindo na liberdade e na privacidade da vítima.
   links:
     -
       text: STF enquadra homofobia e transfobia como crimes de racismo ao reconhecer omissão legislativa'
       url: http://www.stf.jus.br/portal/cms/verNoticiaDetalhe.asp?idConteudo=414010
 
 -
-  name: Criminalização do racismo
-  year: 1989
+  name: Combate ao cyberbullying
+  year: 2015
   num: 8
-  description: 'Na Constituição de 1988, o racismo é previsto como crime inafiançável. Art. 5º Todos são iguais perante a lei, sem distinção de qualquer natureza, garantindo-se aos brasileiros e aos estrangeiros residentes no País a inviolabilidade do direito à vida, à liberdade, à igualdade, à segurança e à propriedade, nos termos seguintes: XLII - a prática do racismo constitui crime inafiançável e imprescritível, sujeito à pena de reclusão, nos termos da lei; A Lei 7.716/1989 determina punição a quem comete crime de discriminação racial.'
+  description: LEI Nº 13.185/2015 "Há intimidação sistemática na rede mundial de computadores - cyberbullying - quando se usarem os instrumentos que lhe são próprios para depreciar, incitar a violência, adulterar fotos e dados pessoais com o intuito de criar meios de constrangimento psicossocial"
   links:
     -
       text: Lei que criminaliza o racismo completa 25 anos
@@ -149,10 +142,10 @@
       url: http://www.planalto.gov.br/ccivil_03/leis/L7716.htm
 
 -
-  name: Delegacia da Mulher
-  year: 1985
+  name: Poder dos adolescentes de escolher seus representantes políticos
+  year: 1988
   num: 9
-  description: O Decreto n. 24.668, de 30 de janeiro de 1986 revogou o Decreto n. 23.769/1985 e criou as 1.ª, 2.ª, 3.ª, 4.ª e 5.ª Delegacias de Polícia de Defesa da Mulher. Em 1985, o Estado de São Paulo foi pioneiro no país na criação da primeira Delegacia de Defesa da Mulher (DDM). Atualmente, existem DDMs em todos os estados brasileiros.
+  description: Desde a constituição de 88, maiores de 16 anos podem votar
   links:
     -
       text: Decreto n. 24.668/1986
@@ -164,13 +157,11 @@
       text: Mapeamento das Delegacias da Mulher no Brasil
       url: https://www12.senado.leg.br/institucional/omv/entenda-a-violencia/pdfs/mapeamento-das-delegacias-da-mulher-no-brasil
 -
-  name: Depósitos bancários no próprio nome, mesmo se seu marido for contra
-  year: 1934
+  name: Direito ao aleitamento materno para crianças de mães encarceradas
+  year: 1984
   num: 10
   description:
-    - O imperador Dom Pedro II instituiu a poupança no Brasil em 1861. Dez anos depois, uma lei permitiu aos escravos* aplicar na poupança por meio de doações, herança ou renda proveniente de alguma espécie de trabalho. As mulheres casadas conquistaram a possibilidade de abrir uma conta poupança só em 1915, de acordo com Decreto n. 11.820, Art. 9º “A mulher casada, sob qualquer regimen, póde livremente instituir e retirar depositos em seu nome, salvo expressa opposição, por escripto, do marido, o qual não poderá retirar taes depositos sem prévia autorização, em devida fórma, da titular da caderneta ou supprimento judicial, nos termos do direito.”
-    - 'Em 1934, o Decreto n. 24.427 autorizou as mulheres casadas a terem suas poupanças sem necesitarem da autorização de terceiros, conforme seu Art. 53: “A mulher casada sob qualquer regimen e os menores de mais de 16 (dezesseis) anos de idade, poderão fazer e movimentar depósitos nas Caixas Econômicas independentemente de quaisquer autorizações.”'
-    - '*Não foram encontradas informações sobre as mulheres que eram escravas.'
+    - Lei nº 7210, de 11 de julho de 1984. Institui a Lei de Execução Penal.
   links:
     -
       text: Remuneração da poupança é atrelada à taxa básica de juros
@@ -183,20 +174,20 @@
       url: http://legis.senado.gov.br/legislacao/ListaNormas.action?numero=24427&tipo_norma=DEC&data=19340619&link=s
 
 -
-  name: Direito a Creche
-  year: 1996
+  name: CRIME DE VAZAMENTO DE FOTOS OU VÍDEOS ÍNTIMOS
+  year: 2018
   num: 11
-  description: 'Em 1996, a Lei de Diretrizes e Bases (n.9394) estabeleceu no Art. 4º: “O dever do Estado com educação escolar pública será efetivado mediante a garantia de: (...) IV - atendimento gratuito em creches e pré-escolas às crianças de zero a seis anos de idade;”'
+  description: Art. 218-C. LEI Nº 13.718/2018Disponibilizar, compartilhar ou vender conteúdos de nudez sem o consentimento pode configurar pena de 1 a 5 anos, se não houverem agravantes.
   links:
     -
       text: Lei de Diretrizes e Bases - Lei 9394/96
       url: http://www.planalto.gov.br/ccivil_03/leis/L9394.htm
 
 -
-  name: Direito a decidir não ter filhos de forma autônoma
-  year: x
+  name: CRIME TER RELAÇÕES SEXUAIS COM CRIANÇAS E ADOLESCENTES
+  year: 2009
   num: 12
-  description: 'A LEI Nº 9.263, DE 12 DE JANEIRO DE 1996, que regula o § 7º do art. 226 da Constituição Federal, que trata do planejamento familiar, estabelece penalidades e, além de outras providências, estabelece em seu Art. 10: “Somente é permitida a esterilização voluntária nas seguintes situações: (Artigo vetado e mantido pelo Congresso Nacional - Mensagem nº 928, de 19.8.1997) I - em homens e mulheres com capacidade civil plena e maiores de vinte e cinco anos de idade ou, pelo menos, com dois filhos vivos, desde que observado o prazo mínimo de sessenta dias entre a manifestação da vontade e o ato cirúrgico, período no qual será propiciado à pessoa interessada acesso a serviço de regulação da fecundidade, incluindo aconselhamento por equipe multidisciplinar, visando desencorajar a esterilização precoce;”'
+  description: LEI Nº 12.015/2009 Ter relações sexuais com menores de 18 anos tendo mais de 18 anos, configura crime.
   links:
     -
       text: LEI Nº 9.263, DE 12 DE JANEIRO DE 1996
