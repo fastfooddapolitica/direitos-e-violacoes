@@ -187,17 +187,17 @@
   name: CRIME TER RELAÇÕES SEXUAIS COM CRIANÇAS E ADOLESCENTES
   year: 2009
   num: 12
-  description: LEI Nº 12.015/2009 Ter relações sexuais com menores de 18 anos tendo mais de 18 anos, configura crime.
+  description: LEI Nº 12.015/2009. Ter relações sexuais com menores de 18 anos tendo mais de 18 anos, configura crime.
   links:
     -
       text: LEI Nº 9.263, DE 12 DE JANEIRO DE 1996
       url: http://www.planalto.gov.br/ccivil_03/leis/L9263.htm
 
 -
-  name: Direito ao divórcio
-  year: 1977
+  name: PODER SE CANDIDATAR PARA REPRESENTAR A SUA CIDADE
+  year: X
   num: 13
-  description: O casamento era indissolúvel, por isso o direito à Pensão Alimentícia surgiu muito antes. “Só havia o desquite – significando não quites, em débito para com a sociedade – que rompia a sociedade conjugal, mas não dissolvia o casamento”.
+  description: Apenas a partir de 18 anos é permitido se candidatar para vereador(a) e 21 anos para prefeito(a).
   links:
     -
       text: A LEI Nº 6.515, DE 26 DE DEZEMBRO DE 1977, regula os casos de dissolução da sociedade conjugal e do casamento, seus efeitos e respectivos processos, e dá outras providências. A mulher no Código Civil
@@ -207,10 +207,10 @@
       url: http://www.planalto.gov.br/ccivil_03/leis/L6515.htm
 
 -
-  name: Direito ao voto
-  year: 1932
+  name: PODER SE CANDIDATAR PARA REPRESENTAR SEU ESTADO
+  year: X
   num: 14
-  description: Aprovado pelo Decreto nº 21.076/1932 no governo Getúlio Vargas, dois anos depois foi assentado em bases constitucionais. Porém, a nova Constituição restringiu a votação feminina às mulheres que exerciam função pública remunerada. Apenas as mulheres que trabalhavam (aquelas que recebiam alguma remuneração) eram obrigadas a votar. Este direito foi ampliado efetivamente para todas as mulheres 14 anos depois, na Constituição de 1946 (artigo 133).
+  description: Apenas a partir de 30 anos é permitido se candidatar para governador e 21 anos para deputado(a). 
   links:
     -
       text: 'Série Inclusão: a conquista do voto feminino no Brasil'
@@ -220,32 +220,31 @@
       url: http://www.planalto.gov.br/ccivil_03/constituicao/constituicao46.htm
 
 -
-  name: Direito da mulher casada a decidir trabalhar
-  year: 1962
+  name: PROIBIDA A AGRESSÃO OU CASTIGO FÍSICO CONTRA CRIANÇAS E ADOLESCENTES
+  year: 2014
   num: 15
-  description: O Código Civil de 1916 previa, no artigo 233 - Dos Direitos e Deveres do Marido - “O direito de autorizar a profissão da mulher e a sua residência fora do tecto conjugal”.  No ano de 1962 (por meio da Lei 4.121) foi aprovado o Estatuto da Mulher Casada que garantia entre muitas coisas que a mulher não precisaria mais pedir autorização ao marido para poder trabalhar, receber herança e no caso de separação poderia solicitar a guarda dos filhos.
+  description: Art 18-A LEI Nº 13.010/2014. Proibição do castigo físico como ferramenta para "disciplinar" crianças e adolescentes. Seja por familiares, professores, amigos ou quaisquer outros indivíduos.
   links:
     -
       text: O Estatuto da Mulher Casada de 1962
       url: http://www.lume.ufrgs.br/handle/10183/90299
 
 -
-  name: Fim da garantia por lei da restauração da “honra da mulher”, caso ela se casasse com seu estuprador
-  year: 2005
+  name: PROIBIÇÃO DO CASAMENTO INFANTIL
+  year: 2019
   num: 16
-  description: A Lei 11.106, de 2005 alterou e anulou a redação de diversos artigos que se referiam a crimes contra a honra, entre essas alterações houve a revogação da extinção da pena por estupro caso o agressor se casasse com a vítima.
+  description: LEI Nº 13.811/2019. Antes dessa lei ainda era possível se casar antes dos 16 anos, em caso de "gravidez ou para evitar crimes penais comuns", segundo o artigo 1.520 do Código Civil. 
   links:
     -
       text: LEI Nº 11.106, DE 28 DE MARÇO DE 2005.
       url: http://www.planalto.gov.br/ccivil_03/_ato2004-2006/2005/lei/l11106.htm
 
 -
-  name: Fim da obrigatoriedade da adoção do nome do marido
-  year: 1977
+  name: Criação de um conselho exclusivo para defender os direitos das crianças e adolescentes
+  year: 1990
   num: 17
   description:
-    - A Lei n. 6.515, de 26 de dezembro de 1977, regula os casos de dissolução da sociedade conjugal e do casamento. O Art. 17 estabelece que “Vencida na ação de separação judicial (art. 5º “ caput “), voltará a mulher a usar o nome de solteira.” Esta mesma lei possibilitou que as mulheres pudessem manter seus nomes de solteira após o casamento porque adicionou um parágrafo único ao Art 240 do Código Civil de 1916 (“A mulher poderá acrescer ao seus os apelidos do marido.”). Em 1988, a nova Constituição Federal passa a consagrar a igualdade entre marido e mulher como direito fundamental, sendo prevista no artigo 226, parágrafo 5º (“Os direitos e deveres referentes à sociedade conjugal, são exercidos igualmente pelo homem e pela mulher.”). A partir de então, jurisprudência admitia que o marido adotasse o sobrenome da mulher pelo procedimento da via judicial.
-    - Em 2002, a nova redação do Código Civil reforça a igualdade entre marido e mulher no artigo 1.565 (“Pelo casamento, homem e mulher assumem mutuamente a condição de consortes, companheiros e responsáveis pelos encargos da família.”), assegurando, claramente, que o marido possa adotar o sobrenome da mulher se desejar logo no parágrafo 1º (“Qualquer dos nubentes, querendo, poderá acrescer ao seu o sobrenome do outro.”).
+    - O ECA dá origem ao Conselho Tutelar, órgão autônomo e eletivo, presente em quase todos os municípios brasileiros.
   links:
     -
       text: LEI Nº 6.515, DE 26 DE DEZEMBRO DE 1977.
@@ -264,30 +263,30 @@
       url: http://www.planalto.gov.br/ccivil_03/leis/2002/L10406.htm
 
 -
-  name: Garantia da flexão de gênero na nomeação de profissões ou grau em diplomas
-  year: 2012
+  name: DIREITO À LIBERDADE RELIGIOSA 
+  year: 2021
   num: 18
-  description: A Lei n. 12.605, de 3 de abril de 2012, determina o emprego obrigatório da flexão de gênero para nomear profissão ou grau em diplomas.
+  description: Em 1988, a liberdade religiosa foi garantida pela constituição, ainda assim atentados contra religiões de matriz africanas continuaram a aconteceram. Nas escolas, foi em 2021 que o Estado de SP instituiu a Lei estadual de liberdade religiosa
   links:
     -
       text: LEI Nº 12.605, DE 3 DE ABRIL DE 2012.
       url: http://www.planalto.gov.br/ccivil_03/_ato2011-2014/2012/lei/l12605.htm
 
 -
-  name: Integração do trabalho doméstico remunerado à Previdência Social
-  year: 2013
+  name: DIREITO A LICENÇA MATERNIDADE PARA ESTUDANTES GRÁVIDAS
+  year: 1975
   num: 19
-  description: A Emenda Constitucional n. 72, de 2 de abril de 2013, altera a redação do parágrafo único do art. 7º da Constituição Federal para estabelecer a igualdade de direitos trabalhistas entre os trabalhadores domésticos e os demais trabalhadores urbanos e rurais. Antes disso, o direito à aposentadoria permanecia nas mãos do empregador.
+  description: Lei n° 6.202/1975
   links:
     -
       text: EMENDA CONSTITUCIONAL Nº 72, DE 2 DE ABRIL DE 2013
       url: http://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc72.htm
 
 -
-  name: Jornada de trabalho variável conforme condições do ciclo menstrual
-  year: x
+  name: Criação do cadastro nacional de crianças desaparecidas
+  year: 2009
   num: 20
-  description: Alguns países propõem essa política, como Japão, China, Coréia do Sul e outros. No Brasil, em 21/12/2016, o deputado Carlos Bezerra propôs um projeto (PL 6.784/2016) que dispõe sobre o afastamento do trabalho durante o período menstrual da empregada.
+  description: Lei nº 12.127/2009
   links:
     -
       text: Há países onde as mulheres podem faltar ao trabalho por causa das dores menstruais
@@ -300,13 +299,12 @@
       url: http://www.conjur.com.br/2016-dez-24/deputado-propoe-mudar-clt-permitir-licenca-menstrual
 
 -
-  name: Lei específica para combater a violência doméstica
+  name: Direito a alimentação sem cancerígenos
   year: 2006
   num: 21
   description:
-    - 'Lei Maria da Penha: “Os benefícios alcançados pelas mulheres com a Lei Maria da Penha são inúmeros. A Lei criou um mecanismo judicial específico - os Juizados de Violência Doméstica e Familiar contra as Mulheres - com competência cível e criminal; inovou com uma série de medidas protetivas de urgência para as vítimas de violência doméstica; reforçou a atuação das Delegacias de Atendimento à Mulher, da Defensoria Pública, do Ministério Público e de uma rede de serviços de atenção à mulher em situação de violência doméstica e familiar.'
-    - 'A Lei previu, ainda, uma série de medidas de caráter social, preventivo, protetivo e repressivo, e definiu as diretrizes das políticas públicas e ações integradas para a prevenção e erradicação da violência doméstica contra as mulheres, tais como: a implementação de redes de serviços interinstitucionais, a promoção de estudos e estatísticas, a avaliação dos resultados; a implementação de centros de atendimento multidisciplinar, delegacias especializadas e casas abrigo; e a realização de campanhas educativas, capacitação permanente dos integrantes dos órgãos envolvidos na questão, celebração de convênios e parcerias, e a inclusão de conteúdos de equidade de gênero nos currículos escolares.'
-    - Em suma, a Lei Maria da Penha reconhece a obrigação do Estado em garantir a segurança das mulheres nos espaços público e privado ao definir as linhas de uma política de prevenção e atenção no enfrentamento à violência doméstica e familiar contra a mulher. Delimita, ademais, o atendimento às mulheres vítimas de violência doméstica e familiar e inverte a lógica da hierarquia de poder em nossa sociedade, de modo a privilegiar as mulheres e dotá-las de maior cidadania e conscientização dos reconhecidos recursos para agir e se posicionar, no âmbito familiar e social, garantindo-lhes sua emancipação e autonomia”.
+    - Lei nº 7.802/1989 e Decreto nº 4.074/2002
+    - Proibidas substâncias dentro dos alimentos com características carcinogênica, mutagênica, desreguladora endócrina ou tóxica para a reprodução ou para o desenvolvimento do feto. A aprovação de alguns agrotóxicos agora ameaça esse direito.
   links:
     -
       text: 'Fonte: Site da Secretaria Especial de Política para Mulheres'
@@ -316,10 +314,10 @@
       url: www.planalto.gov.br/ccivil_03/_ato2004-2006/2006/lei/l11340.htm
 
 -
-  name: Licença Maternidade
-  year: 1943
+  name: Direito de crianças migrantes estudarem no Brasil
+  year: 2020
   num: 22
-  description: A licença maternidade surgiu no Brasil em 1943, com o surgimento da Consolidação das Leis do Trabalho, a CLT. A licença era de 84 dias e tinha que ser paga pelo empregador, o que causava uma restrição considerável para as mulheres no mercado de trabalho. A atual licença obrigatória para empresas é de 120 dias, a voluntária, chamada Programa Empresa Cidadã, a amplia para 160 dias. Em 2016, a licença paternidade foi ampliada de 5 para 20 dias, mas apenas para empresas do Programa Empresa Cidadã.
+  description: RESOLUÇÃO Nº 1, DE 13 DE NOVEMBRO DE 2020
   links:
     -
       text: Especial Licença-Maternidade 2 - Evolução das leis e costumes sobre licença-maternidade no Brasil (06’02’’) Site da Câmara Federal
@@ -332,10 +330,10 @@
       url: https://suriman.jusbrasil.com.br/noticias/314065643/aprovada-licenca-paternidade-de-20-dias
 
 -
-  name: Pensão Alimentícia
-  year: 1603
+  name: Obrigatória a matrícula na escola de crianças maiores de 4 anos
+  year: 2013
   num: 23
-  description: A questão dos alimentos foi prevista nas Ordenações do Reino, valendo em Portugal e também no Brasil, foram criadas em 1595, mas entraram efetivamente em vigor em 1603. Tiveram grande influência no Brasil até 1916, quando foi instituído o Código Civil.
+  description: Dos 4 aos 17 anos, obrigatória a educação básica e gratuita. Antes era obrigatório a oferta apenas do ensino fundamental. Lei nº 12.796/2013
   links:
     -
       text: Ordenações Filipinas - considerável influência no direito brasileiro
@@ -346,90 +344,3 @@
     -
       text: Ordenações Filipinas on-line
       url: http://www1.ci.uc.pt/ihti/proj/filipinas/ordenacoes.htm
-
--
-  name: Programa Social que fornece auxílio financeiro concentrado sob a responsabilidade da mulher
-  year: 2004
-  num: 24
-  description: A Lei n. 10.836, de 9 de janeiro 2004, criou o Programa Bolsa Família, que, de acordo com o § 14 do artigo 2º, define que “O pagamento dos benefícios previstos nesta Lei será feito preferencialmente à mulher, na forma do regulamento.”
-  links:
-    -
-      text: Bolsa Família deu autonomia às mulheres, mas ainda falha com os homens
-      url:  http://jornalggn.com.br/blog/bolsa-familia-deu-autonomia-as-mulheres-mas-ainda-falha-com-os-homens
-    -
-      text: LEI No 10.836, DE 9 DE JANEIRO DE 2004.
-      url: http://www.planalto.gov.br/ccivil_03/_ato2004-2006/2004/lei/l10.836.htm
-
--
-  name: Garantia à igualdade salarial
-  year: x
-  num: 25
-  description: A Islândia é o 1º país do mundo a obrigar que as empresas cumpram igualdade salarial entre os gêneros, com lei que entrou em vigor em 1º de janeiro de 2018. No Brasil, pela Constituição Federal, deveríamos ter igualdade salarial, porém não existe nada que regulamente esse direito. Luciana Genro propôs um PL (Projeto de Lei n. 7.016/2010) sobre o tema, que foi esquecido pela Câmara.
-  links:
-    -
-      text: Islândia e a igualdade salarial entre os gêneros
-      url: http://oglobo.globo.com/sociedade/islandia-institui-exigencia-de-salarios-iguais-para-homens-mulheres-21031570
-    -
-      text: Projeto de Lei n. 7.016/2010
-      url: http://www.camara.gov.br/proposicoesWeb/fichadetramitacao?idProposicao=470681
-
--
-  name: Proibição do parto com algemas de mulheres encarceradas
-  year: 2016
-  num: 26
-  description:
-    - A proibição do parto com algemas está sendo discutida desde 2012, entretanto, somente com o Decreto nº 8.858 de 2016 (“Art. 3º É vedado emprego de algemas em mulheres presas em qualquer unidade do sistema penitenciário nacional durante o trabalho de parto, no trajeto da parturiente entre a unidade prisional e a unidade hospitalar e após o parto, durante o período em que se encontrar hospitalizada.”) a proibição de fato aconteceu.
-    - O Projeto de Lei da Câmara nº 23, de 2017 inclui a medida no Código de Processo Penal tornando o decreto uma política de Estado. A sanção presidencial ocorreu em abril de 2017 pelo Presidente Michel Temer, dando origem à Lei nº 13.434 de 12/04/2017, que acrescenta parágrafo único ao art. 292 do Decreto-Lei nº 3.689, de 3 de outubro de 1941 (Código de Processo Penal), para vedar o uso de algemas em mulheres grávidas durante o parto e em mulheres durante a fase de puerpério imediato.
-  links:
-    -
-      text: Projeto de Lei do Senado nº 75, de 2012
-      url: http://www25.senado.leg.br/web/atividade/materias/-/materia/104806
-    -
-      text: Decreto nº 8.858, de 26 de setembro de 2016
-      url: http://www.planalto.gov.br/ccivil_03/_Ato2015-2018/2016/Decreto/D8858.htm
-    -
-      text: Projeto de Lei da Câmara nº 23, de 2017
-      url: https://www25.senado.leg.br/web/atividade/materias/-/materia/128274
-    -
-      text: Sanção Presidencial, abril de 2017
-      url: http://blogs.oglobo.globo.com/lauro-jardim/post/temer-sanciona-lei-que-proibe-gravidas-algemadas-durante-o-parto.html
-    -
-      text: Lei nº 13.434 de 12/04/2017
-      url: http://legis.senado.leg.br/legislacao/DetalhaSigen.action?id=17676954
-
--
-  name: Proibição legislativa do casamento infantil
-  year: 2019
-  num: 27
-  description:
-    - 'No ECA, Estatuto da Criança e do Adolescente, considera-se criança a pessoa de até 12 anos incompletos. O Código Civil de 2002 estabelece: A idade mínima para se casar mediante autorização dos pais ou representantes legais, é dezesseis anos. Porém, até 2019, no Art. 1.520 era possível casar sem ter atingido a idade mínima, para então, evitar imposição ou cumprimento de pena criminal ou em caso de gravidez. Não havendo limite de idade aparente para se proibir um casamento. Atualmente, o Brasil tem o maior número de casos de casamento infantil da América Latina e o quarto no mundo.'
-    - “Em 2005, a Lei 11.160 revogou os incisos VII e VIII do artigo 107 do Código Penal, que previam o casamento do estuprador com sua vítima como causa extintiva da punibilidade”. Porém, até 2019 a lei civil mantinha a possibilidade de autorização excepcional do casamento para o caso de crimes sexuais cometidos contra meninas. Em 12 de Março de 2019 foi sancionada a lei 13.811, que proíbe o casamento de pessoas menores de 16 anos.
-  links:
-    -
-      text: O que a vigência do artigo 1520 do Código Civil diz sobre a percepção do estupro?
-      url: https://jus.com.br/artigos/56710/o-que-a-vigencia-do-artigo-1520-do-codigo-civil-diz-sobre-a-percepcao-do-estupro
-    -
-      text: Lei 13.811, de 12 de Março de 2019
-      url: http://www.planalto.gov.br/ccivil_03/_ato2019-2022/2019/lei/L13811.htm    
-    -
-      text: Banco Mundial lança relatório sobre casamento infantil
-      url: http://www.onumulheres.org.br/noticias/banco-mundial-lanca-relatorio-sobre-casamento-infantil/
-    -
-      text: LEI Nº 10.406, DE 10 DE JANEIRO DE 2002.
-      url: http://www.planalto.gov.br/ccivil_03/leis/2002/L10406.htm
-
--
-  name: Regulamentação da Licença Maternidade para militares
-  year: 2009
-  num: 28
-  description: Em 2009, por meio do Projeto de Lei 5896, foi discutido sobre a licença à gestante e à adotante, as medidas de proteção à maternidade para militares grávidas e a licença-paternidade, no âmbito das Forças Armadas. Este Projeto de Lei tornou-se Lei Ordinária em 2015, sob o número 13.109, em 25 de março.
-  links:
-    -
-      text: Projeto regulamenta licença maternidade e paternidade para militar
-      url: http://www2.camara.leg.br/camaranoticias/noticias/142972.html
-    -
-      text: PL 5896/2009
-      url: http://www.camara.gov.br/proposicoesWeb/fichadetramitacao?idProposicao=447331
-    -
-      text: LEI Nº 13.109, DE 25 DE MARÇO DE 2015.
-      url: http://www.planalto.gov.br/CCIVIL_03/_Ato2015-2018/2015/Lei/L13109.htm
