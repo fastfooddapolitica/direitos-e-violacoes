@@ -77,30 +77,30 @@ export default {
   position: relative;
   background-size: 100%;
   border-radius: 10px;
-  color: white;
+  color: $pri-color;
   padding: 10px;
   background-repeat: no-repeat;
   box-sizing: border-box;
   box-shadow: 2px 2px 4px 0px #000;
   font-size: 12pt;
-  text-shadow: black 1px 1px 1px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 .card-year {
-  background-color: #b61f38;
-  padding: 4px 8px;
-  border: solid 1px black;
+  background-color: $pri-color;
+  padding: 4px 12px;
   font-size: 14pt;
   margin-top: 0.5rem;
+  border-radius: 100px;
+  color: $sec-color;
 }
 .card-unexists {
   font-size: 12pt;
 }
 .card-back {
-  background-color: $pri-color;
+  background-color: #454e7c;
   font-size: 10pt;
 }
 span {
